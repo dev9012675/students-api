@@ -239,5 +239,12 @@ Upon a successful request , you will receive the updated student document.
 
 Upon a successful request , you will receive the deleted student document.
 
+#### Hello World
+
+```http
+  GET /api/hello
+```
+
+Displays a "Hello World" message
 
 
