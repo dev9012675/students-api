@@ -244,7 +244,7 @@ Upon a successful request , you will receive the deleted student document.
 ```http
   GET /api/hello
 ```
-
+####  Request Response:
 Displays a "Hello World" message
 
 
