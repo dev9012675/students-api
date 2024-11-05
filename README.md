@@ -16,7 +16,7 @@ This mini-project has been created to act as a submission for the tasks performe
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `student`      | `Student` | **Required**. data of student to be created in the database. |
+| `student`      | `CreateStudentDTO` | **Required**. data of student to be created in the database. |
 
 #### Sample Request Body:
 
@@ -209,7 +209,7 @@ On a successful request, you should receive a document containing data about the
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of student to update. |
-| `student`      | `Partial<Student>` | **Required**. data of student to be updated. |
+| `student`      | `UpdateStudentDTO` | **Required**. data of student to be updated. |
 
 #### Sample Request Body:
 
