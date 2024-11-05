@@ -3,7 +3,7 @@ import { HydratedDocument } from 'mongoose';
 import { PersonalInfo , Address , EmergencyContact , GradeInfo  } from 'src/students/student.interfaces';
 export type StudentDocument = HydratedDocument<Student>
 
-  @Schema()
+  @Schema({timestamps:true})
 export class Student {
   @Prop({  type: {
     name: { type: String, required: true },
